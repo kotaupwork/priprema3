@@ -1,0 +1,331 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(240, 234, 234); 
+    font-family: JosefinSans;
+    font-size: 2vh;
+}
+
+@font-face {
+  font-family: JosefinSans;
+  src: url("fontovi/JosefinSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: Kanit;
+  src: url("fontovi/Kanit-Italic.ttf");
+}
+@font-face {
+  font-family: Merriweather;
+  src: url("fontovi/MerriweatherSans-Italic.ttf");
+}
+@font-face {
+  font-family: Righteous;
+  src: url("fontovi/Righteous-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("fontovi/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: Righteous;
+  src: url("fontovi/Righteous-Regular.ttf");
+}
+@font-face {
+  font-family: Russo;
+  src: url("fontovi/RussoOne-Regular.ttf");
+}
+@font-face {
+  font-family: TiltNeon;
+  src: url("fontovi/TiltNeon-Regular.ttf");
+}
+@font-face {
+  font-family: YuGiOh;
+  src: url("fontovi/Yu-Gi-Oh! Matrix.ttf");
+}
+
+body{
+    background-color: rgb(208, 245, 236);
+}
+
+a{
+    font-size: 2.1vh;
+}
+
+div{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+h3{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    
+}
+
+h4{
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+    display: inline-flexbox;
+}
+
+.menustrip
+{
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 200;
+}
+
+.menustrip ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menustrip ul li
+{
+    width: auto;
+    margin: 15px;
+    padding: 15px;
+    z-index: 200;
+}
+
+
+.menustrip ul li a
+{
+    color: rgb(240, 234, 234);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2.4vh;
+    z-index: 200;
+}
+
+.menustrip ul li:hover
+{
+    background-color:black;
+    border-radius: 4px;
+}
+
+.submenu
+{
+    display: none;
+}
+
+.submenu ul li
+{
+    background-color: transparent;
+}
+
+.menustrip ul li:hover .submenu
+{
+    display:block;
+    position: absolute;
+    background-image: linear-gradient(black, rgb(0, 0, 0, 80%), rgb(0, 0, 0, 70%));
+
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menustrip ul li:hover .submenu ul
+{
+    display:block;
+    margin: 10px;
+}
+
+.menustrip ul li:hover .submenu ul li
+{
+    width: 180px;
+    padding: 10px;
+    border-bottom: 1px dotted whitesmoke;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.submenu ul li a:hover
+{
+    color: rgb(255, 189, 43);
+}
+.menustrip ul li:hover .submenu ul li:last-child
+{
+    border-bottom: none;
+}
+
+
+.submenu1
+{
+    display: none;
+}
+
+.hoverme:hover .submenu1
+{
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    background-image: linear-gradient(black, rgb(0, 0, 0, 80%), rgb(0, 0, 0, 70%));
+}
+
+.submenu1 ul li a:hover
+{
+    color: rgb(255, 189, 43);
+}
+
+
+.logo{
+    position:fixed;
+    top: 5px;
+    left: 5px;
+    float: left;
+    height: 8vh;
+    z-index: 100;
+}
+
+.ikona{
+    float: left;
+    height: 23px;
+    margin-right: 8px;
+}
+
+.videjo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slikaDiv{
+    width: 100%;
+    text-align:center; 
+  /*  display: inline-block;*/
+    white-space:nowrap;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.drzacDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.slikaElement{
+    height: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.pozadina{
+    background: fixed;
+}
+
+.footer{
+    border-top:  2px solid #fff;;
+    width: 100%;
+    text-align:center; 
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.footerInfo{
+    display:inline-block;
+    width: 25%;
+    margin: 20px;
+    vertical-align:middle;
+    opacity: 100%;
+}
+
+.footerLink{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.madeBy{
+    height: 6vh;
+    width: 100%;
+    
+    position: relative;
+    bottom: 0px;
+    
+    text-align: right;
+}
+
+.boja1{
+    background: rgb(122, 172, 159);
+}
+
+.bojag1{
+    background-image: linear-gradient(black,black 60%, transparent);
+}
+.bojag2{
+    background-image: linear-gradient(transparent,black 60%, black);
+}
+.bojag3{
+    background-image: linear-gradient(black, transparent, transparent);
+}
+.bojat1{
+    color: rgb(255, 189, 43);
+}
+.bojat2{
+    color: rgb(0, 0, 0);
+}
+
+.topGradient{
+    background-image: linear-gradient(black, transparent);
+    position:fixed; 
+    top: 0; 
+    height: 1vh; 
+    width: 100%;
+}
+.bottomGradient{
+    background-image: linear-gradient(transparent, black);
+    position:fixed; 
+    bottom: 0; 
+    height: 1vh; 
+    width: 100%;
+}
+.bojah1{
+    color: rgb(191, 191, 252);
+}
+
+.slikaBanner{
+    background-image: url("slike/banner-new1.png");
+	
+}
+.slikaLogo{
+    background-image: url("slike/logo-net.png");
+}
+.slikaLogoTekst{
+    background-image: url("slike/logo-text-white.png");
+}
+
+.slikaBg1{
+    background-image: url("slike/#");
+}
+.slikaBg2{
+    background-image: url("slike/#");
+}
+.slikaBg3{
+    background-image: url("slike/#");
+}
+.slika4{
+    background-image: url("slike/#");
+    background-size: contain;
+}
