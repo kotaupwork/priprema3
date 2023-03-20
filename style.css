@@ -46,7 +46,7 @@
 }
 
 body{
-    background-color: rgb(208, 245, 236);
+    background-color: rgb(50, 48, 52);
 }
 
 a{
@@ -122,7 +122,7 @@ h4{
 
 .menustrip ul li:hover
 {
-    background-color:black;
+    background-color:rgb(0, 0, 0, 10%);
     border-radius: 4px;
 }
 
@@ -140,7 +140,7 @@ h4{
 {
     display:block;
     position: absolute;
-    background-image: linear-gradient(black, rgb(0, 0, 0, 80%), rgb(0, 0, 0, 70%));
+    background-image: linear-gradient(rgb(122, 172, 159), rgb(122, 172, 159, 70%), transparent);
 
     margin-top: 15px;
     margin-left: -15px;
@@ -163,7 +163,7 @@ h4{
 }
 .submenu ul li a:hover
 {
-    color: rgb(255, 189, 43);
+    color: rgb(29, 28, 28);
 }
 .menustrip ul li:hover .submenu ul li:last-child
 {
@@ -182,12 +182,12 @@ h4{
     display: block;
     margin-top: -50px;
     margin-left: 170px;
-    background-image: linear-gradient(black, rgb(0, 0, 0, 80%), rgb(0, 0, 0, 70%));
+    background-image: linear-gradient(rgb(122, 172, 159), rgb(122, 172, 159, 70%), transparent);
 }
 
 .submenu1 ul li a:hover
 {
-    color: rgb(255, 189, 43);
+    color: rgb(29, 28, 28);
 }
 
 
@@ -224,6 +224,21 @@ h4{
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.kutija{    
+    background-color: rgba(0,0,0, 70%); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
 
 .slikaElement{
@@ -270,7 +285,6 @@ h4{
 .boja1{
     background: rgb(122, 172, 159);
 }
-
 .bojag1{
     background-image: linear-gradient(black,black 60%, transparent);
 }
@@ -317,7 +331,7 @@ h4{
 }
 
 .slikaBg1{
-    background-image: url("slike/#");
+    background-image: url("slike/stock/desktop1.png");
 }
 .slikaBg2{
     background-image: url("slike/#");
