@@ -140,7 +140,7 @@ h4{
 {
     display:block;
     position: absolute;
-    background-image: linear-gradient(rgb(122, 172, 159), rgb(122, 172, 159, 70%), transparent);
+    background-image: linear-gradient(rgb(122, 172, 159), rgb(122, 172, 159, 90%), rgb(122, 172, 159, 80%), rgb(122, 172, 159, 10%));
 
     margin-top: 15px;
     margin-left: -15px;
