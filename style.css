@@ -89,7 +89,7 @@ h4{
 
 .menustrip
 {
-    text-align: center;
+    text-align: left;
     border-bottom: 2px solid #fff;
     width: 100%;
     margin: 0 auto;
@@ -100,6 +100,10 @@ h4{
 {
     display: inline-flex;
     list-style: none;
+}
+.menustrip ul:first-child
+{
+    margin-left: 3.5vw;
 }
 
 .menustrip ul li
@@ -193,8 +197,8 @@ h4{
 
 .logo{
     position:fixed;
-    top: 5px;
-    left: 5px;
+    top: 10px;
+    left: 10px;
     float: left;
     height: 8vh;
     z-index: 100;
