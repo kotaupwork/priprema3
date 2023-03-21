@@ -182,7 +182,7 @@ h4{
     display: block;
     margin-top: -50px;
     margin-left: 170px;
-    background-image: linear-gradient(rgb(122, 172, 159), rgb(122, 172, 159, 70%), transparent);
+    background-image: linear-gradient(rgb(122, 172, 159), rgb(122, 172, 159, 70%), rgb(122, 172, 159, 80%), rgb(122, 172, 159, 30%));
 }
 
 .submenu1 ul li a:hover
