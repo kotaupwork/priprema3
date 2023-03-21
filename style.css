@@ -245,6 +245,7 @@ h4{
     height: 25%;
     margin-left: 25%;
     margin-right: 25%;
+    z-index: 100;
 }
 
 .pozadina{
@@ -334,12 +335,14 @@ h4{
     background-image: url("slike/stock/desktop1.png");
 }
 .slikaBg2{
-    background-image: url("slike/#");
+    background-image: url("slike/stock/office-empty.jpg");
+    background-repeat: no-repeat;
 }
 .slikaBg3{
     background-image: url("slike/#");
 }
-.slika4{
-    background-image: url("slike/#");
+.slika1{
+    background-image: url("slike/stock/table.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
