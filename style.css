@@ -242,6 +242,7 @@ h4{
 
 .plavoDugme
 {
+    margin-top: 3vh;
 font-family: Roboto, sans-serif;
 font-weight: 0;
 font-size: 14px;
@@ -253,8 +254,6 @@ box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
 border-radius: 50px;
 transition : 1000ms;
 transform: translateY(0);
-display: flex;
-flex-direction: row;
 align-items: center;
 cursor: pointer;
 }
@@ -269,20 +268,9 @@ color: #0066cc;
 border: solid 2px #0066cc;
 }
 
-.container-bottom-to-up 
-{
-    overflow: hidden;
-    margin: 0px;
-    }
-    .top-to-bottom {
+.top-to-bottom {
     animation: 0.4s top-to-bottom forwards;
-    font-size: 24px;
-    font-weight: 600;
     letter-spacing: -.005em;
-    font-family:
-    "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color: rgba(0,0,0,0.8);
-    text-align: left;
 } 
 @keyframes top-to-bottom {
 from {
