@@ -1,0 +1,18 @@
+<!-- Za karticu --!>
+
+<div class="card">
+            <div class="card-content">
+              <h3 class="card-title">I know exactly what I'm doing</h3>
+              <h4 class="card-subtitle"></h4>
+            </div>
+            <i class="fa-solid fa-hat-witch card-icon"></i>
+        </div>
+
+
+
+//https://www.htmlcssbuttongenerator.com/css-button-generator.html
+//https://codepen.io/Hyperplexed/pen/rNrJgrd
+//https://taylorvowell.com/
+//https://www.rubens.design/
+//https://jopecuro.com/#Home
+//https://baloo.rs/?gclid=CjwKCAjwq-WgBhBMEiwAzKSH6MvQvScmsaNBaFG7ObfNBDEH7DzNoBVV4Rff_rIqKxfwbpleF9OF7xoCoIsQAvD_BwE
