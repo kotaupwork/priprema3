@@ -357,7 +357,6 @@ transform: translateY(0);
   .card-title,
   .card-subtitle {
     color: white;
-    font-family: "Anek Latin", sans-serif;
     font-weight: 400;
     margin: 0px;
   }
