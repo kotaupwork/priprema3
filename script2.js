@@ -20,14 +20,43 @@ var createSubtitle = text => text.split(" ").map(addWord);
 switch (i) {
   case 0:
     createSubtitle("Website design");
-    subtitle.appendChild(document.createElement("br"));
+    subtitle.appendChild(document.createElement("br")); //new line
     createSubtitle("New line");
     break;
   case 1:
     createSubtitle("Menu, Banner and Visit card design");
     break;
   case 2:
-    createSubtitle("Social media smh smh");
+    createSubtitle("Linkedin banner design");
+
+    var icon = document.createElement("img");
+    icon.classList.add("ikona");
+    icon.src="slike/ikonice/linkedin.png"
+    subtitle.appendChild(icon);
+    
+    subtitle.appendChild(document.createElement("br")); //new line
+    createSubtitle("Instagram ...");
+
+    var icon = document.createElement("img");
+    icon.classList.add("ikona");
+    icon.src="slike/ikonice/instagram.png"
+    subtitle.appendChild(icon);
+
+    subtitle.appendChild(document.createElement("br")); //new line
+    createSubtitle("Twitter ...");
+
+    var icon = document.createElement("img");
+    icon.classList.add("ikona");
+    icon.src="slike/ikonice/twitter.png"
+    subtitle.appendChild(icon);
+
+    subtitle.appendChild(document.createElement("br")); //new line
+    createSubtitle("Email ...");
+
+    var icon = document.createElement("img");
+    icon.classList.add("ikona");
+    icon.src="slike/ikonice/mail-white.png"
+    subtitle.appendChild(icon);
     break;
   default:
     createSubtitle("NFC tag setup, QR code print");

@@ -286,8 +286,8 @@ transform: translateY(0);
 :root {
     --border: rgb(64, 173, 236);
     
-    --g1: rgb(226, 167, 79);
-    --g2: rgb(64, 173, 236);    
+    --g1: rgb(64, 173, 236);
+    --g2: rgb(226, 167, 79);    
     --g3: rgb(228, 150, 224);
   }
   
@@ -490,7 +490,7 @@ transform: translateY(0);
     background-repeat: no-repeat;
 }
 .slikaBg3{
-    background-image: url("slike/#");
+    background-image: url("slike/stock/floating2.png");
 }
 .slika1{
     background-image: url("slike/stock/table.png");
