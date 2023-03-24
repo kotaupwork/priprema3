@@ -283,6 +283,85 @@ transform: translateY(0);
 }
 }
 
+:root {  
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+  }
+  
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    
+    to {
+      background-position: -200% center;
+    }
+  }
+  
+  @keyframes scale {
+    from, to {
+      transform: scale(0);
+    }
+    
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  h3 > .magic {
+    display: inline-block;
+    position: relative;
+  }
+  
+  h3 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+    
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+  }
+  
+  h3 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+  }
+  
+  h3 > .magic > .magic-star > svg > path {
+    fill: var(--violet);
+  }
+  
+  h3 > .magic > .magic-text {
+    font-size: 6vmin;
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--purple),
+      var(--violet),
+      var(--pink),
+      var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+
 :root {
     --border: rgb(64, 173, 236);
     
@@ -390,6 +469,42 @@ transform: translateY(0);
     z-index: 2;
   }
 
+  @keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+#blob {
+  background-color: white;
+  height: 34vmax;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgba(65, 138, 113, 0.4), rgba(76, 58, 112, 0.4));
+  filter: blur(12vmax);
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(12vmax);
+}
 
   
 .slikaElement{
