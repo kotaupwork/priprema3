@@ -1,1 +1,4 @@
-uradio jack shit ulepsaj ga :)
+Za Aleksu
+
+.plavoDugme onvlick treba da produzi div
+ i prikaze tekst unutar produzenog dela
