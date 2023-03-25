@@ -33,7 +33,7 @@ switch (i) {
     createSubtitle("Visit card design");
 
     subtitle.appendChild(document.createElement("br")); //new line
-    createSubtitle("Instagram ...");
+    createSubtitle("...");
     break;
   case 2:
     createSubtitle("Linkedin banner design");

@@ -350,7 +350,7 @@ transform: translateY(0);
   }
   
   h3 > .magic > .magic-text {
-    font-size: 6vmin;
+    font-size: 6vmin; /* Font */
     animation: background-pan 3s linear infinite;
     background: linear-gradient(
       to right,
@@ -364,6 +364,10 @@ transform: translateY(0);
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
   }
+h3 .magic .magic-text:hover
+{
+  cursor: default;
+}
 
 :root {
     --border: rgb(64, 173, 236);
@@ -541,6 +545,10 @@ transform: translateY(0);
     text-decoration: none;
     font-weight: bolder;
 }
+.footerLink:hover
+{
+  color: rgb(103, 58, 183);
+}
 
 .madeBy{
     height: 6vh;
@@ -577,6 +585,7 @@ transform: translateY(0);
     top: 0; 
     height: 1vh; 
     width: 100%;
+    z-index: 200;
 }
 .bottomGradient{
     background-image: linear-gradient(transparent, black);
@@ -584,6 +593,7 @@ transform: translateY(0);
     bottom: 0; 
     height: 1vh; 
     width: 100%;
+    z-index: 200;
 }
 .bojah1{
     color: rgb(191, 191, 252);
