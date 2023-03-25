@@ -24,7 +24,16 @@ switch (i) {
     createSubtitle("New line");
     break;
   case 1:
-    createSubtitle("Menu, Banner and Visit card design");
+    createSubtitle("Menu design");
+    
+    subtitle.appendChild(document.createElement("br")); //new line
+    createSubtitle("Banner design");
+
+    subtitle.appendChild(document.createElement("br")); //new line
+    createSubtitle("Visit card design");
+
+    subtitle.appendChild(document.createElement("br")); //new line
+    createSubtitle("Instagram ...");
     break;
   case 2:
     createSubtitle("Linkedin banner design");
